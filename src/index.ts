@@ -24,6 +24,13 @@ app.get('/books', (req: Request, res: Response) => {
     res.json(books);
 });
 
+/** TODO: CODE HERE
+ 1 - Fix installation issues & add execution script
+ 2 - Fix test issues & add test execution script
+ 3 - Implement new book creation
+ 4 - Implement book edition
+ 5 - Implement book deletion
+*/
 
 app.listen(port, () => {
     console.log(`Server started on http://localhost:${port}`);
