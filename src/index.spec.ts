@@ -1,5 +1,5 @@
 import request from 'supertest';
-import server from './index';
+import app from './index';
 
 describe('Test de l\'API /books', () => {
     it('devrait récupérer tous les livres', async () => {
